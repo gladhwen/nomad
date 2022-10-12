@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'Epyval';
+  src: url('resources/fonts/Epyval-webfont.woff2') format('woff2'),
+       url('resources/fonts/Epyval-webfont.woff') format('woff'),
+       url('resources/fonts/Epyval.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  margin: 0 5%;
+  /* background-color: #EAE2B7; */
+  position: relative;
+}
+
+/*
+ * ----- HEADER / NAVBAR -----
+ * Add "top" class to first container after the header
+ */
+
+header {
+  width: 90%;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  z-index: 10;
+  /* background-color: #EAE2B7; */
+  background-color: #fff;
+  border-bottom: 1px solid #FCBF49;
+}
+
+.page-title {
+  height: 40px;
+  font-family: 'Caveat', cursive;
+  color: #003049;
+}
+
+.topnav {
+  background-color: #003049;
+  overflow: hidden;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FCBF49;
+  opacity: 85%;
+  color: #000;
+}
+
+.topnav a.active {
+  background-color: #FCBF49;
+  color: #000;
+}
+
+.top {
+  margin-top: 150px;
+}
+  
+
+/*
+ * ----- FONTS -----
+ */
+
+.regular {
+  font-style: normal;
+}
+  
+.italic {
+  font-style: italic;
+}
+  
+.bold {
+  font-weight: 700;
+}
+  
+.figtree {
+  font-family: 'Figtree', sans-serif;
+}
+  
+.courier-prime {
+  font-family: 'Courier Prime', monospace;
+}
+  
+.caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.epyval {
+  font-family: 'Epyval', fantasy;
+}
+
+/*
+ * ----- STYLE GUIDE -----
+ */
+
+#style-guide-body {
+  background-color: #fff;
+}
+
+.container {
+  border: 2px solid #a2a2a6;
+  padding: 10px;
+  /* margin: 10px auto; */
+}
+  
+.color-container {
+  width: 100%;
+}
+  
+.color-panel {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  margin: 20px auto;
+  /**min-height: 100px;**/
+}
+
+.color-label {
+  font-family: 'Caveat';
+  font-size: x-large;
+}
+
+.color-hex {
+  font-family: 'Courier Prime';
+}
+
+.navy {
+  background-color: #003049;
+  color: #fff;
+}
+  
+.red {
+  background-color: #D62828;
+  color: #000;
+}
+  
+.orange {
+  background-color: #F77F00;
+  color: #000;
+}
+  
+.gold {
+  background-color: #FCBF49;
+  color: #000;
+}
+
+.cream {
+  background-color: #EAE2B7;
+  color: #000;
+}
+  
+.font-panel {
+  width: 45%;
+  display: inline-block;
+}
+  
+.font-label {
+  font-size: 30px;
+  /* text-decoration: underline; */
+}
+  
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Figtree', sans-serif;
+}
+  
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 22px;
+  font-family: 'Figtree', sans-serif;
+}
+  
+.text-panel p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Figtree', sans-serif;
+}
